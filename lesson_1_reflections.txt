@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Viewing the diff showed just the few lines that had changed, making it easier
+    and quicker to find the line with a typo.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You could be more efficient, because you would know you could always return
+    to an earlier version of the file to trace a new bug.  You could also completely revert changes, or add back a deleted section at some point in the future.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros are that you can ensure that each commit encompasses a complete, compilable code change.  The cons are that you may lose your work, if you wait too long to commit and your system crashes, or you may lose intermediate code that you deleted, but later decide you want to use.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is designed to save groups of related files in a project-based repository.  Google Docs treats each document as a separate entity.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    The command git log displays a list of all the commits on a file by commit id, author, date/time and a commit comment with the most recent commit first.  This allows you to see the overall history of the file.  The git diff command displays the concise differences between two commit ids, so you can see exactly was as added and what was deleted between the two file versions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using version control makes you more confident to make changes that could break something, because you know you can always get back to a version that worked before the changes.  Git has tools, like git diff, that also help to identify the cause of a new bug, based on differences between two versions of a source file.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    My first android project!
