@@ -15,6 +15,8 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches would be helpful when trying out an experimental change or when making another basically parallel version of the program with some minor change, such as language or difficulty.  Branches allow you to make changes, try them and then decide whether to merge the changes back into the master branch, keep them as separate version or discard them altogether -- all without changing the master branch.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
