@@ -21,7 +21,7 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I would share copies of changed source files with colleagues.  In general we would take turns checking into subbversion, so that the responsibility of merging fell to each person as they checked in changes.  Usually, we would try to work in separate source files at any given time. Some version control systems force that by locking files that are checked out.  The git approach makes it much easier for two or more people to make changes concurrently in the same file, but it can still end up being messy to merge many changes.  It may be harder, if you have to wait for someone to approve every change you make.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
